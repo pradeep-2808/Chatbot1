@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.example.chatbot" extension-version="0.1.0">
+    <default-locale>en_US</default-locale>
+    <name resource-id="name"/>
+    <description>Chatbot Extension for Tableau</description>
+    <author name="Pradeep Raja" email="pradeep.r@gwcdata.ai" organization="GWC" website="http://127.0.0.1:5500/chatbot-extension.html"/>
+    <min-api-version>1.0</min-api-version>
+    <source-location>
+      <url>https://localhost:8000/chatbot-extension.html</url>
+    </source-location>
+    <icon></icon>
+    <permissions>
+      <permission>full data</permission>
+    </permissions>
+  </dashboard-extension>
+  <resources>
+    <resource id="name">
+      <text locale="en_US">Chatbot Extension</text>
+    </resource>
+  </resources>
+</manifest>

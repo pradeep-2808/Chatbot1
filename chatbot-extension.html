@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tableau Chatbot</title>
+    <script src="https://unpkg.com/@tableau/extensions-api-types@1.10.0/lib/tableau.extensions.1.latest.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="chatbot-container">
+        <div id="chat-header">
+            <h3>Tableau Assistant</h3>
+        </div>
+        
+        <div id="chat-messages"></div>
+        
+        <div id="chat-input-container">
+            <input type="text" id="chat-input" placeholder="Ask me about your data...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    
+    <script src="chatbot-extension.js"></script>
+</body>
+</html>
