@@ -7,7 +7,7 @@
     <author name="Pradeep Raja" email="pradeep.r@gwcdata.ai" organization="GWC" website="http://127.0.0.1:5500/chatbot-extension.html"/>
     <min-api-version>1.0</min-api-version>
     <source-location>
-      <url>https://localhost:8000/chatbot-extension.html</url>
+      <url>http://localhost:8000/chatbot-extension.html</url>
     </source-location>
     <icon></icon>
     <permissions>
